@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Halaman-1" id="YXIFqXBMrNtA3OhOX5te">
-    <mxGraphModel dx="1488" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1229" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,7 +24,7 @@
           <mxGeometry height="150" width="120" x="40" y="150" as="geometry" />
         </mxCell>
         <mxCell id="_0mW_Hy6ZI4XKiRrWvfT-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="BUKU" vertex="1">
-          <mxGeometry height="40" width="120" x="270" y="120" as="geometry" />
+          <mxGeometry height="40" width="120" x="270" y="80" as="geometry" />
         </mxCell>
         <mxCell id="_0mW_Hy6ZI4XKiRrWvfT-17" edge="1" parent="1" source="_0mW_Hy6ZI4XKiRrWvfT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_0mW_Hy6ZI4XKiRrWvfT-10">
           <mxGeometry relative="1" as="geometry" />
@@ -39,8 +39,21 @@
             <mxPoint x="-18" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_0mW_Hy6ZI4XKiRrWvfT-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p&gt;id_buku (PK)&lt;/p&gt;&lt;p&gt;judul_buku&lt;/p&gt;&lt;p&gt;penulis&lt;/p&gt;&lt;p&gt;penerbit&lt;/p&gt;&lt;p&gt;tahun_terbit&lt;/p&gt;&lt;p&gt;stok&lt;/p&gt;" vertex="1">
-          <mxGeometry height="150" width="120" x="270" y="160" as="geometry" />
+        <mxCell id="TOYSXdAp5L-l9psXLwox-3" edge="1" parent="1" source="_0mW_Hy6ZI4XKiRrWvfT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="TOYSXdAp5L-l9psXLwox-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TOYSXdAp5L-l9psXLwox-4" connectable="0" parent="TOYSXdAp5L-l9psXLwox-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="0..N" vertex="1">
+          <mxGeometry relative="1" x="-0.8994" y="-3" as="geometry">
+            <mxPoint x="-9" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TOYSXdAp5L-l9psXLwox-5" connectable="0" parent="TOYSXdAp5L-l9psXLwox-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.9029" y="1" as="geometry">
+            <mxPoint x="8" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0mW_Hy6ZI4XKiRrWvfT-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p&gt;id_buku (PK)&lt;/p&gt;&lt;p&gt;id_kategori (FK)&lt;/p&gt;&lt;p&gt;judul_buku&lt;/p&gt;&lt;p&gt;penulis&lt;/p&gt;&lt;p&gt;penerbit&lt;/p&gt;&lt;p&gt;tahun_terbit&lt;/p&gt;&lt;p&gt;stok&lt;/p&gt;" vertex="1">
+          <mxGeometry height="190" width="120" x="270" y="120" as="geometry" />
         </mxCell>
         <mxCell id="_0mW_Hy6ZI4XKiRrWvfT-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="PETUGAS" vertex="1">
           <mxGeometry height="40" width="120" x="490" y="120" as="geometry" />
@@ -132,6 +145,12 @@
           <mxGeometry relative="1" x="0.5171" y="1" as="geometry">
             <mxPoint y="-11" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="TOYSXdAp5L-l9psXLwox-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;code&gt;id_kategori (PK)&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;nama_kategori&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;deskripsi&lt;/code&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="150" width="120" x="510" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="TOYSXdAp5L-l9psXLwox-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;KATEGORI&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="510" y="585" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
